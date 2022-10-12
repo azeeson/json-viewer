@@ -1,0 +1,160 @@
+:host {
+    --main-bg-color: rgb(58, 60, 68);
+    --main-color: #eee;
+    --string-text-color: rgb(242 151 102);
+    --number-text-color: rgb(119, 237, 164);
+    --boolean-text-color: rgb(237 119 229);
+    --null-text-color: #fff;
+
+    display: block;
+    position: relative;
+    background-color: var(--main-bg-color);
+    font: 400 14px/1.2rem monospace;
+    text-rendering: optimizelegibility;
+    color: var(--main-color);
+    padding: 0.5rem 1rem;
+
+    .segment {
+        .line {
+            display: block;
+            white-space: nowrap;
+            word-wrap: break-word;
+
+            .toggler {
+                margin-top: -1px;
+                margin-left: -0.47rem;
+                margin-right: 0.2rem;
+                vertical-align: middle;
+                color: #787878;
+                display: inline-block;
+                width: 1rem;
+                height: 1rem;
+                // svg,
+                .plus,
+                .minus {
+                    fill: #787878;
+                }
+            }
+
+            .bracket {
+                color: rgb(137, 137, 137);
+            }
+
+            .key {
+                color: rgb(207, 208, 208);
+            }
+        
+            .separator {
+                color: rgb(137, 137, 137);
+                margin: 0px 6px 0px 2px ;
+            }
+
+            .size {
+                margin-left: 8px;
+                font-style: italic;
+                font-size: .8rem;
+                color: rgb(116, 114, 114);
+                user-select: none;
+                vertical-align: middle;
+            }
+
+            .value {
+                &[data-type="string"] {
+                    color: var(--string-text-color);
+                }
+                &[data-type="number"] {
+                    color: var(--number-text-color);
+                }
+                &[data-type="boolean"] {
+                    color: var(--boolean-text-color);
+                }
+                &[data-type="null"],
+                &[data-type="undefined"] {
+                    color: var(--null-text-color);
+                }
+                &[data-type="array"],
+                &[data-type="object"] {
+                    font-style: italic;
+                    font-size: .8rem;
+                    color: rgb(116, 114, 114);
+                    width: 90%;
+                    overflow: hidden;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+
+        &[aria-expanded="true"] > {
+            .line > .toggler {
+                .plus {
+                    display: none;
+               }
+               .minus {
+                    display: inline-block;
+                }
+            }
+            .line > .value {
+                display: none;
+            }
+        }
+        &[aria-expanded="false"] > {
+            .line > .toggler {
+                .plus {
+                    display: inline-block;
+               }
+               .minus {
+                    display: none;
+                }
+            }
+            .line > .value {
+                display: inline-block;
+            }
+
+            .line > .bracket,
+            .line > .size,
+            .line > .toggler .minus,
+            :last-child,
+            .children {
+                display: none;
+            }
+        }
+
+        & > {
+            .line {
+                cursor: pointer;
+
+                &:hover > {
+                    .key {
+                        color: rgb(231, 231, 231);
+                    }
+                     .toggler .plus,
+                     .toggler .minus {
+                        fill: #979797;
+                    }
+                }
+            }
+            .children {
+                padding-left: 1rem;
+                border-left: 1px dotted rgb(88, 88, 85);
+
+                &[data-type="array"] {
+                    & > .line > .key,
+                    & > .line > .separator {
+                        color: rgb(116, 114, 114);
+                        user-select: none;
+                    }
+                }
+            }
+        }
+
+        &:hover > {
+            .children {
+                border-color: rgb(133, 133, 128);
+            }
+            .line > .bracket {
+                color: rgb(255, 255, 247);
+            }
+        }
+    }
+}
