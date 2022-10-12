@@ -7,3 +7,6 @@ declare global {
 }
 
 customElements.define('json-viewer', JSONViewer);
+
+export default JSONViewer;
+export {JSONViewer};

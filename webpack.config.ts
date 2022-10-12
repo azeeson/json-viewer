@@ -1,10 +1,11 @@
 
 import * as path from 'path';
-import  {Configuration,LoaderContext} from 'webpack';
+import * as webpack from 'webpack';
 import 'webpack-dev-server';
-import  HtmlWebpackPlugin from 'html-webpack-plugin';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-function getMode(): Configuration['mode']{
+
+function getMode(): webpack.Configuration['mode']{
     const mode = process?.env?.NODE_ENV;
     switch (mode){
         case 'development':
@@ -20,7 +21,7 @@ function isDevelopment(): boolean {
     return getMode() !== 'production';
 }
 
-const config: Configuration = {
+const config: webpack.Configuration = {
     mode: getMode(),
     entry: './src/index.ts',
     output: {
@@ -31,7 +32,13 @@ const config: Configuration = {
         rules: [
             {
                 test: /\.tsx?$/,
-                use: 'ts-loader',
+                use: {
+                    loader: 'ts-loader',
+                    options: {
+                        context: path.resolve(__dirname, 'src'),
+                        configFile: path.resolve(__dirname, 'src', 'tsconfig.json'),
+                    }
+                },
                 exclude: /node_modules/,
             },
             {
@@ -51,7 +58,7 @@ const config: Configuration = {
                         loader: "css-loader",
                         options: {
                             modules: {
-                                getLocalIdent: (context: LoaderContext<unknown>, _: string, localName: string) => {
+                                getLocalIdent: (context: webpack.LoaderContext<unknown>, _: string, localName: string) => {
                                     const {utils, resourcePath} = context;
                                     const content = Buffer.from(resourcePath + localName, "utf8");
                                     const localIdentHash = utils.createHash('md4').update(content).digest('hex').toString();
