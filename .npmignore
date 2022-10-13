@@ -1,0 +1,10 @@
+/src
+/tests
+/assets
+
+.eslintignore
+.eslintrc.json
+tsconfig.json
+webpack.config.ts
+.DS_Store
+npm-debug.log
