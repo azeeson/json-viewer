@@ -1,23 +1,23 @@
 {
-  "name": "json-viewer",
+  "name": "json-viewer-component",
   "version": "0.1.0",
-  "description": "",
+  "description": "JSON Viewer - Web Components",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve",
     "build": "cross-env NODE_ENV=production webpack"
   },
-  "keywords": [],
+  "keywords": ["components", "web components", "json", "viewer"],
   "author": "Alexander Medkov <azeeson@gmail.com> (https://azeeson.com/)",
   "license": "MIT",
-  "homepage": "https://github.com/azeeson/json-viewer#readme",
+  "homepage": "https://github.com/azeeson/json-viewer-component#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/azeeson/json-viewer.git"
+    "url": "git+https://github.com/azeeson/json-viewer-component.git"
   },
   "bugs": {
-    "url": "https://github.com/azeeson/json-viewer/issues"
+    "url": "https://github.com/azeeson/json-viewer-component/issues"
   },
   "devDependencies": {
     "@types/node": "18.8.4",

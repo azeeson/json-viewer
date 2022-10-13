@@ -28,6 +28,11 @@ export const getTogglerIcon = () => {
 };
 
 
+/**
+ *
+ * @cssproperty [--main-bg-color] - Main background color.
+ * @cssproperty [--main-color] - Main text color.
+ */
 export class JSONViewer extends HTMLElement implements JSONViewerActions {
 
     static get observedAttributes() { return ['counter', 'filter']; }
