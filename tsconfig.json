@@ -1,14 +1,12 @@
 {
     "compilerOptions": {
-        "module": "CommonJS",
+        "module": "ESNext",
         "declaration": false,
-        // "emitDeclarationOnly": true,
-        "target": "ES2020",
+        "target": "ES6",
         "lib": ["es2017", "es7", "es6", "dom"],
-        //   "outFile": "./index.d.ts",                             /* Concatenate and emit output to single file. */
-        "baseUrl": "./src",
-        "outDir": "./dist",                              /* Redirect output structure to the directory. */
-        "rootDir": "./",   
+        "baseUrl": "./",
+        "outDir": "./dist",
+        "rootDir": "./",
         "noImplicitAny": true,
         "preserveConstEnums": true,
         "removeComments": false,
@@ -20,10 +18,15 @@
         "skipLibCheck": true /* Skip type checking of declaration files. */,
         "forceConsistentCasingInFileNames": true, /* Disallow inconsistently-cased references to the same file. */
 
-        "allowSyntheticDefaultImports": true,
-        "moduleResolution": "Node"
+        "moduleResolution": "Node",
+		"paths": {
+			"*": [
+				"src/*",
+				"node_modules/*",
+			],
+		}
         //   "plugins": [
-        //     { "name": "typescript-plugin-css-modules", 
+        //     { "name": "typescript-plugin-css-modules",
         //         "options": {
         //           "customMatcher": "\\.(c|le|sa|sc)ss$",
         //           "rendererOptions": {
@@ -40,5 +43,10 @@
         "node_modules",
         "./types",
         "./dist",
-    ]
+    ],
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    }
 }

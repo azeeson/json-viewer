@@ -1,14 +1,14 @@
 
 interface InsertOptions {
-    target?: DocumentFragment | HTMLElement
+	target?: DocumentFragment | HTMLElement;
 }
 
-type Classes = { [key: string]: string };
+type Classes = {[key: string]: string};
 
 interface LazyStyle {
-    locals: Classes,
-    use: (insertOptions?: InsertOptions) => void;
-    unuse: () => void;
+	locals: Classes;
+	use: (insertOptions?: InsertOptions) => void;
+	unuse: () => void;
 }
 
 declare module '*.scss' {
