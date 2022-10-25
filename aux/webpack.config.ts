@@ -56,7 +56,8 @@ const config: Configuration = {
 							modules: {
 								getLocalIdent: (context: LoaderContext<unknown>, _: string, localName: string) => {
 									const {utils, resourcePath} = context;
-									const content = Buffer.from(resourcePath + localName, 'utf8');
+									const relativeResourcePath = path.relative(PATH_ROOT, resourcePath);
+									const content = Buffer.from(`${relativeResourcePath}${localName}`, 'utf8');
 									const localIdentHash = utils.createHash('md4').update(content).digest('hex').toString();
 
 									return `${localName.slice(0, 2)}_${localIdentHash.slice(0, 6)}`;

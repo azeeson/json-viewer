@@ -3,107 +3,107 @@
 exports[`json-viewer should be match array content 1`] = `
 NodeList [
   <style>
-    :host{--main-bg-color: #3a3c44;--main-color: #eee;--string-text-color: #f29766;--number-text-color: #77eda4;--boolean-text-color: #ed77e5;--null-text-color: #fff;position:relative;display:block;padding:.5rem 1rem;background-color:var(--main-bg-color);color:var(--main-color);font:400 14px/1.2rem monospace;text-rendering:optimizelegibility}:host .se_0c5dd1 .li_030c5f{display:block;white-space:nowrap;word-wrap:break-word}:host .se_0c5dd1 .li_030c5f .to_2745fd{display:inline-block;margin-top:-1px;margin-right:.2rem;margin-left:-0.47rem;width:1rem;height:1rem;color:#787878;vertical-align:middle}:host .se_0c5dd1 .li_030c5f .to_2745fd .pl_dc825e,:host .se_0c5dd1 .li_030c5f .to_2745fd .mi_7c9e35{fill:#787878}:host .se_0c5dd1 .li_030c5f .br_00693c{color:#898989}:host .se_0c5dd1 .li_030c5f .ke_31c9d8{color:#cfd0d0}:host .se_0c5dd1 .li_030c5f .se_e0d101{margin:0 6px 0 2px;color:#898989}:host .se_0c5dd1 .li_030c5f .si_2fbe48{margin-left:8px;color:#747272;font-size:.8rem;font-style:italic;user-select:none;vertical-align:middle}:host .se_0c5dd1 .li_030c5f .va_251777[data-type=string]{color:var(--string-text-color)}:host .se_0c5dd1 .li_030c5f .va_251777[data-type=number]{color:var(--number-text-color)}:host .se_0c5dd1 .li_030c5f .va_251777[data-type=boolean]{color:var(--boolean-text-color)}:host .se_0c5dd1 .li_030c5f .va_251777[data-type=null],:host .se_0c5dd1 .li_030c5f .va_251777[data-type=undefined]{color:var(--null-text-color)}:host .se_0c5dd1 .li_030c5f .va_251777[data-type=array],:host .se_0c5dd1 .li_030c5f .va_251777[data-type=object]{overflow:hidden;width:90%;color:#747272;font-size:.8rem;font-style:italic;vertical-align:middle}:host .se_0c5dd1&gt;.li_030c5f{cursor:pointer}:host .se_0c5dd1&gt;.li_030c5f:hover&gt;.ke_31c9d8{color:#e7e7e7}:host .se_0c5dd1&gt;.li_030c5f:hover&gt;.to_2745fd .pl_dc825e,:host .se_0c5dd1&gt;.li_030c5f:hover&gt;.to_2745fd .mi_7c9e35{fill:#979797}:host .se_0c5dd1&gt;.ch_f74b76{padding-left:1rem;border-left:1px dotted #585855}:host .se_0c5dd1&gt;.ch_f74b76[data-type=array]&gt;.li_030c5f&gt;.ke_31c9d8,:host .se_0c5dd1&gt;.ch_f74b76[data-type=array]&gt;.li_030c5f&gt;.se_e0d101{color:#747272;user-select:none}:host .se_0c5dd1[aria-expanded=true]&gt;.li_030c5f&gt;.to_2745fd .pl_dc825e{display:none}:host .se_0c5dd1[aria-expanded=true]&gt;.li_030c5f&gt;.to_2745fd .mi_7c9e35{display:inline-block}:host .se_0c5dd1[aria-expanded=true]&gt;.li_030c5f&gt;.va_251777{display:none}:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.to_2745fd .pl_dc825e{display:inline-block}:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.to_2745fd .mi_7c9e35{display:none}:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.va_251777{display:inline-block}:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.br_00693c,:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.si_2fbe48,:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.to_2745fd .mi_7c9e35,:host .se_0c5dd1[aria-expanded=false]&gt;:last-child,:host .se_0c5dd1[aria-expanded=false]&gt;.ch_f74b76{display:none}:host .se_0c5dd1:hover&gt;.ch_f74b76{border-color:#858580}:host .se_0c5dd1:hover&gt;.li_030c5f&gt;.br_00693c{color:#fffff7}
+    :host{--main-bg-color: #3a3c44;--main-color: #eee;--string-text-color: #f29766;--number-text-color: #77eda4;--boolean-text-color: #ed77e5;--null-text-color: #fff;position:relative;display:block;padding:.5rem 1rem;background-color:var(--main-bg-color);color:var(--main-color);font:400 14px/1.2rem monospace;text-rendering:optimizelegibility}:host .se_c4f6de .li_e8499a{display:block;white-space:nowrap;word-wrap:break-word}:host .se_c4f6de .li_e8499a .to_a744e4{display:inline-block;margin-top:-1px;margin-right:.2rem;margin-left:-0.47rem;width:1rem;height:1rem;color:#787878;vertical-align:middle}:host .se_c4f6de .li_e8499a .to_a744e4 .pl_9ef1da,:host .se_c4f6de .li_e8499a .to_a744e4 .mi_4a8d0b{fill:#787878}:host .se_c4f6de .li_e8499a .br_6fc46c{color:#898989}:host .se_c4f6de .li_e8499a .ke_df9ddf{color:#cfd0d0}:host .se_c4f6de .li_e8499a .se_830216{margin:0 6px 0 2px;color:#898989}:host .se_c4f6de .li_e8499a .si_94a13e{margin-left:8px;color:#747272;font-size:.8rem;font-style:italic;user-select:none;vertical-align:middle}:host .se_c4f6de .li_e8499a .va_2c711f[data-type=string]{color:var(--string-text-color)}:host .se_c4f6de .li_e8499a .va_2c711f[data-type=number]{color:var(--number-text-color)}:host .se_c4f6de .li_e8499a .va_2c711f[data-type=boolean]{color:var(--boolean-text-color)}:host .se_c4f6de .li_e8499a .va_2c711f[data-type=null],:host .se_c4f6de .li_e8499a .va_2c711f[data-type=undefined]{color:var(--null-text-color)}:host .se_c4f6de .li_e8499a .va_2c711f[data-type=array],:host .se_c4f6de .li_e8499a .va_2c711f[data-type=object]{overflow:hidden;width:90%;color:#747272;font-size:.8rem;font-style:italic;vertical-align:middle}:host .se_c4f6de&gt;.li_e8499a{cursor:pointer}:host .se_c4f6de&gt;.li_e8499a:hover&gt;.ke_df9ddf{color:#e7e7e7}:host .se_c4f6de&gt;.li_e8499a:hover&gt;.to_a744e4 .pl_9ef1da,:host .se_c4f6de&gt;.li_e8499a:hover&gt;.to_a744e4 .mi_4a8d0b{fill:#979797}:host .se_c4f6de&gt;.ch_fd9797{padding-left:1rem;border-left:1px dotted #585855}:host .se_c4f6de&gt;.ch_fd9797[data-type=array]&gt;.li_e8499a&gt;.ke_df9ddf,:host .se_c4f6de&gt;.ch_fd9797[data-type=array]&gt;.li_e8499a&gt;.se_830216{color:#747272;user-select:none}:host .se_c4f6de[aria-expanded=true]&gt;.li_e8499a&gt;.to_a744e4 .pl_9ef1da{display:none}:host .se_c4f6de[aria-expanded=true]&gt;.li_e8499a&gt;.to_a744e4 .mi_4a8d0b{display:inline-block}:host .se_c4f6de[aria-expanded=true]&gt;.li_e8499a&gt;.va_2c711f{display:none}:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.to_a744e4 .pl_9ef1da{display:inline-block}:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.to_a744e4 .mi_4a8d0b{display:none}:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.va_2c711f{display:inline-block}:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.br_6fc46c,:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.si_94a13e,:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.to_a744e4 .mi_4a8d0b,:host .se_c4f6de[aria-expanded=false]&gt;:last-child,:host .se_c4f6de[aria-expanded=false]&gt;.ch_fd9797{display:none}:host .se_c4f6de:hover&gt;.ch_fd9797{border-color:#858580}:host .se_c4f6de:hover&gt;.li_e8499a&gt;.br_6fc46c{color:#fffff7}
   </style>,
   <section
-    class="se_0c5dd1"
+    class="se_c4f6de"
   >
     <div
-      class="li_030c5f"
+      class="li_e8499a"
     >
       <svg
-        class="to_2745fd"
+        class="to_a744e4"
         height="20"
         viewBox="0 0 1792 1792"
         width="20"
       >
         <path
-          class="mi_7c9e35"
+          class="mi_4a8d0b"
           d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
         />
         <path
-          class="pl_dc825e"
+          class="pl_9ef1da"
           d="M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
         />
       </svg>
       <span
-        class="va_251777"
+        class="va_2c711f"
         data-type="array"
       >
         Array[2] [{"string":"this is a test ...","integer":42,"array":[1,2,3,"NaN"],"float":3.141,"undefined":"undefined","object":{"first-child":true,"second-child":false,"last-child":"null"},"string_number":"1234"},{"string":"this is a test ...","integer":42,"array":[1,2,3,"NaN"],"float":3.141,"undefined":"undefined","object":{"first-child":true,"second-child":false,"last-child":"null"},"string_number":"1234"}]
       </span>
       <span
-        class="br_00693c"
+        class="br_6fc46c"
       >
         [
       </span>
     </div>
     <section
-      class="ch_f74b76"
+      class="ch_fd9797"
       data-type="array"
     >
       <section
-        class="se_0c5dd1"
+        class="se_c4f6de"
       >
         <div
-          class="li_030c5f"
+          class="li_e8499a"
         >
           <svg
-            class="to_2745fd"
+            class="to_a744e4"
             height="20"
             viewBox="0 0 1792 1792"
             width="20"
           >
             <path
-              class="mi_7c9e35"
+              class="mi_4a8d0b"
               d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
             />
             <path
-              class="pl_dc825e"
+              class="pl_9ef1da"
               d="M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
             />
           </svg>
           <span
-            class="ke_31c9d8"
+            class="ke_df9ddf"
           >
             "0"
           </span>
           <span
-            class="se_e0d101"
+            class="se_830216"
           >
             :
           </span>
           <span
-            class="va_251777"
+            class="va_2c711f"
             data-type="object"
           >
             Object {"string":"this is a test ...","integer":42,"array":[1,2,3,"NaN"],"float":3.141,"undefined":"undefined","object":{"first-child":true,"second-child":false,"last-child":"null"},"string_number":"1234"}
           </span>
           <span
-            class="br_00693c"
+            class="br_6fc46c"
           >
             {
           </span>
         </div>
         <section
-          class="ch_f74b76"
+          class="ch_fd9797"
           data-type="object"
         >
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "string"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="string"
             >
               "this is a test ..."
@@ -111,20 +111,20 @@ NodeList [
             ,
           </div>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "integer"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="number"
             >
               42
@@ -132,67 +132,67 @@ NodeList [
             ,
           </div>
           <section
-            class="se_0c5dd1"
+            class="se_c4f6de"
           >
             <div
-              class="li_030c5f"
+              class="li_e8499a"
             >
               <svg
-                class="to_2745fd"
+                class="to_a744e4"
                 height="20"
                 viewBox="0 0 1792 1792"
                 width="20"
               >
                 <path
-                  class="mi_7c9e35"
+                  class="mi_4a8d0b"
                   d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
                 />
                 <path
-                  class="pl_dc825e"
+                  class="pl_9ef1da"
                   d="M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
                 />
               </svg>
               <span
-                class="ke_31c9d8"
+                class="ke_df9ddf"
               >
                 "array"
               </span>
               <span
-                class="se_e0d101"
+                class="se_830216"
               >
                 :
               </span>
               <span
-                class="va_251777"
+                class="va_2c711f"
                 data-type="array"
               >
                 Array[4] [1,2,3,"NaN"]
               </span>
               <span
-                class="br_00693c"
+                class="br_6fc46c"
               >
                 [
               </span>
             </div>
             <section
-              class="ch_f74b76"
+              class="ch_fd9797"
               data-type="array"
             >
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "0"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="number"
                 >
                   1
@@ -200,20 +200,20 @@ NodeList [
                 ,
               </div>
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "1"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="number"
                 >
                   2
@@ -221,20 +221,20 @@ NodeList [
                 ,
               </div>
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "2"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="number"
                 >
                   3
@@ -242,20 +242,20 @@ NodeList [
                 ,
               </div>
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "3"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="string"
                 >
                   "NaN"
@@ -263,10 +263,10 @@ NodeList [
               </div>
             </section>
             <div
-              class="li_030c5f"
+              class="li_e8499a"
             >
               <span
-                class="br_00693c"
+                class="br_6fc46c"
               >
                 ]
               </span>
@@ -274,20 +274,20 @@ NodeList [
             </div>
           </section>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "float"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="number"
             >
               3.141
@@ -295,20 +295,20 @@ NodeList [
             ,
           </div>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "undefined"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="string"
             >
               "undefined"
@@ -316,67 +316,67 @@ NodeList [
             ,
           </div>
           <section
-            class="se_0c5dd1"
+            class="se_c4f6de"
           >
             <div
-              class="li_030c5f"
+              class="li_e8499a"
             >
               <svg
-                class="to_2745fd"
+                class="to_a744e4"
                 height="20"
                 viewBox="0 0 1792 1792"
                 width="20"
               >
                 <path
-                  class="mi_7c9e35"
+                  class="mi_4a8d0b"
                   d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
                 />
                 <path
-                  class="pl_dc825e"
+                  class="pl_9ef1da"
                   d="M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
                 />
               </svg>
               <span
-                class="ke_31c9d8"
+                class="ke_df9ddf"
               >
                 "object"
               </span>
               <span
-                class="se_e0d101"
+                class="se_830216"
               >
                 :
               </span>
               <span
-                class="va_251777"
+                class="va_2c711f"
                 data-type="object"
               >
                 Object {"first-child":true,"second-child":false,"last-child":"null"}
               </span>
               <span
-                class="br_00693c"
+                class="br_6fc46c"
               >
                 {
               </span>
             </div>
             <section
-              class="ch_f74b76"
+              class="ch_fd9797"
               data-type="object"
             >
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "first-child"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="boolean"
                 >
                   true
@@ -384,20 +384,20 @@ NodeList [
                 ,
               </div>
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "second-child"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="boolean"
                 >
                   false
@@ -405,20 +405,20 @@ NodeList [
                 ,
               </div>
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "last-child"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="string"
                 >
                   "null"
@@ -426,10 +426,10 @@ NodeList [
               </div>
             </section>
             <div
-              class="li_030c5f"
+              class="li_e8499a"
             >
               <span
-                class="br_00693c"
+                class="br_6fc46c"
               >
                 }
               </span>
@@ -437,20 +437,20 @@ NodeList [
             </div>
           </section>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "string_number"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="string"
             >
               "1234"
@@ -458,10 +458,10 @@ NodeList [
           </div>
         </section>
         <div
-          class="li_030c5f"
+          class="li_e8499a"
         >
           <span
-            class="br_00693c"
+            class="br_6fc46c"
           >
             }
           </span>
@@ -469,67 +469,67 @@ NodeList [
         </div>
       </section>
       <section
-        class="se_0c5dd1"
+        class="se_c4f6de"
       >
         <div
-          class="li_030c5f"
+          class="li_e8499a"
         >
           <svg
-            class="to_2745fd"
+            class="to_a744e4"
             height="20"
             viewBox="0 0 1792 1792"
             width="20"
           >
             <path
-              class="mi_7c9e35"
+              class="mi_4a8d0b"
               d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
             />
             <path
-              class="pl_dc825e"
+              class="pl_9ef1da"
               d="M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
             />
           </svg>
           <span
-            class="ke_31c9d8"
+            class="ke_df9ddf"
           >
             "1"
           </span>
           <span
-            class="se_e0d101"
+            class="se_830216"
           >
             :
           </span>
           <span
-            class="va_251777"
+            class="va_2c711f"
             data-type="object"
           >
             Object {"string":"this is a test ...","integer":42,"array":[1,2,3,"NaN"],"float":3.141,"undefined":"undefined","object":{"first-child":true,"second-child":false,"last-child":"null"},"string_number":"1234"}
           </span>
           <span
-            class="br_00693c"
+            class="br_6fc46c"
           >
             {
           </span>
         </div>
         <section
-          class="ch_f74b76"
+          class="ch_fd9797"
           data-type="object"
         >
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "string"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="string"
             >
               "this is a test ..."
@@ -537,20 +537,20 @@ NodeList [
             ,
           </div>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "integer"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="number"
             >
               42
@@ -558,67 +558,67 @@ NodeList [
             ,
           </div>
           <section
-            class="se_0c5dd1"
+            class="se_c4f6de"
           >
             <div
-              class="li_030c5f"
+              class="li_e8499a"
             >
               <svg
-                class="to_2745fd"
+                class="to_a744e4"
                 height="20"
                 viewBox="0 0 1792 1792"
                 width="20"
               >
                 <path
-                  class="mi_7c9e35"
+                  class="mi_4a8d0b"
                   d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
                 />
                 <path
-                  class="pl_dc825e"
+                  class="pl_9ef1da"
                   d="M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
                 />
               </svg>
               <span
-                class="ke_31c9d8"
+                class="ke_df9ddf"
               >
                 "array"
               </span>
               <span
-                class="se_e0d101"
+                class="se_830216"
               >
                 :
               </span>
               <span
-                class="va_251777"
+                class="va_2c711f"
                 data-type="array"
               >
                 Array[4] [1,2,3,"NaN"]
               </span>
               <span
-                class="br_00693c"
+                class="br_6fc46c"
               >
                 [
               </span>
             </div>
             <section
-              class="ch_f74b76"
+              class="ch_fd9797"
               data-type="array"
             >
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "0"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="number"
                 >
                   1
@@ -626,20 +626,20 @@ NodeList [
                 ,
               </div>
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "1"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="number"
                 >
                   2
@@ -647,20 +647,20 @@ NodeList [
                 ,
               </div>
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "2"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="number"
                 >
                   3
@@ -668,20 +668,20 @@ NodeList [
                 ,
               </div>
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "3"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="string"
                 >
                   "NaN"
@@ -689,10 +689,10 @@ NodeList [
               </div>
             </section>
             <div
-              class="li_030c5f"
+              class="li_e8499a"
             >
               <span
-                class="br_00693c"
+                class="br_6fc46c"
               >
                 ]
               </span>
@@ -700,20 +700,20 @@ NodeList [
             </div>
           </section>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "float"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="number"
             >
               3.141
@@ -721,20 +721,20 @@ NodeList [
             ,
           </div>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "undefined"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="string"
             >
               "undefined"
@@ -742,67 +742,67 @@ NodeList [
             ,
           </div>
           <section
-            class="se_0c5dd1"
+            class="se_c4f6de"
           >
             <div
-              class="li_030c5f"
+              class="li_e8499a"
             >
               <svg
-                class="to_2745fd"
+                class="to_a744e4"
                 height="20"
                 viewBox="0 0 1792 1792"
                 width="20"
               >
                 <path
-                  class="mi_7c9e35"
+                  class="mi_4a8d0b"
                   d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
                 />
                 <path
-                  class="pl_dc825e"
+                  class="pl_9ef1da"
                   d="M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
                 />
               </svg>
               <span
-                class="ke_31c9d8"
+                class="ke_df9ddf"
               >
                 "object"
               </span>
               <span
-                class="se_e0d101"
+                class="se_830216"
               >
                 :
               </span>
               <span
-                class="va_251777"
+                class="va_2c711f"
                 data-type="object"
               >
                 Object {"first-child":true,"second-child":false,"last-child":"null"}
               </span>
               <span
-                class="br_00693c"
+                class="br_6fc46c"
               >
                 {
               </span>
             </div>
             <section
-              class="ch_f74b76"
+              class="ch_fd9797"
               data-type="object"
             >
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "first-child"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="boolean"
                 >
                   true
@@ -810,20 +810,20 @@ NodeList [
                 ,
               </div>
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "second-child"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="boolean"
                 >
                   false
@@ -831,20 +831,20 @@ NodeList [
                 ,
               </div>
               <div
-                class="li_030c5f"
+                class="li_e8499a"
               >
                 <span
-                  class="ke_31c9d8"
+                  class="ke_df9ddf"
                 >
                   "last-child"
                 </span>
                 <span
-                  class="se_e0d101"
+                  class="se_830216"
                 >
                   :
                 </span>
                 <span
-                  class="va_251777"
+                  class="va_2c711f"
                   data-type="string"
                 >
                   "null"
@@ -852,10 +852,10 @@ NodeList [
               </div>
             </section>
             <div
-              class="li_030c5f"
+              class="li_e8499a"
             >
               <span
-                class="br_00693c"
+                class="br_6fc46c"
               >
                 }
               </span>
@@ -863,20 +863,20 @@ NodeList [
             </div>
           </section>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "string_number"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="string"
             >
               "1234"
@@ -884,10 +884,10 @@ NodeList [
           </div>
         </section>
         <div
-          class="li_030c5f"
+          class="li_e8499a"
         >
           <span
-            class="br_00693c"
+            class="br_6fc46c"
           >
             }
           </span>
@@ -895,10 +895,10 @@ NodeList [
       </section>
     </section>
     <div
-      class="li_030c5f"
+      class="li_e8499a"
     >
       <span
-        class="br_00693c"
+        class="br_6fc46c"
       >
         ]
       </span>
@@ -910,60 +910,60 @@ NodeList [
 exports[`json-viewer should be match object content 1`] = `
 NodeList [
   <style>
-    :host{--main-bg-color: #3a3c44;--main-color: #eee;--string-text-color: #f29766;--number-text-color: #77eda4;--boolean-text-color: #ed77e5;--null-text-color: #fff;position:relative;display:block;padding:.5rem 1rem;background-color:var(--main-bg-color);color:var(--main-color);font:400 14px/1.2rem monospace;text-rendering:optimizelegibility}:host .se_0c5dd1 .li_030c5f{display:block;white-space:nowrap;word-wrap:break-word}:host .se_0c5dd1 .li_030c5f .to_2745fd{display:inline-block;margin-top:-1px;margin-right:.2rem;margin-left:-0.47rem;width:1rem;height:1rem;color:#787878;vertical-align:middle}:host .se_0c5dd1 .li_030c5f .to_2745fd .pl_dc825e,:host .se_0c5dd1 .li_030c5f .to_2745fd .mi_7c9e35{fill:#787878}:host .se_0c5dd1 .li_030c5f .br_00693c{color:#898989}:host .se_0c5dd1 .li_030c5f .ke_31c9d8{color:#cfd0d0}:host .se_0c5dd1 .li_030c5f .se_e0d101{margin:0 6px 0 2px;color:#898989}:host .se_0c5dd1 .li_030c5f .si_2fbe48{margin-left:8px;color:#747272;font-size:.8rem;font-style:italic;user-select:none;vertical-align:middle}:host .se_0c5dd1 .li_030c5f .va_251777[data-type=string]{color:var(--string-text-color)}:host .se_0c5dd1 .li_030c5f .va_251777[data-type=number]{color:var(--number-text-color)}:host .se_0c5dd1 .li_030c5f .va_251777[data-type=boolean]{color:var(--boolean-text-color)}:host .se_0c5dd1 .li_030c5f .va_251777[data-type=null],:host .se_0c5dd1 .li_030c5f .va_251777[data-type=undefined]{color:var(--null-text-color)}:host .se_0c5dd1 .li_030c5f .va_251777[data-type=array],:host .se_0c5dd1 .li_030c5f .va_251777[data-type=object]{overflow:hidden;width:90%;color:#747272;font-size:.8rem;font-style:italic;vertical-align:middle}:host .se_0c5dd1&gt;.li_030c5f{cursor:pointer}:host .se_0c5dd1&gt;.li_030c5f:hover&gt;.ke_31c9d8{color:#e7e7e7}:host .se_0c5dd1&gt;.li_030c5f:hover&gt;.to_2745fd .pl_dc825e,:host .se_0c5dd1&gt;.li_030c5f:hover&gt;.to_2745fd .mi_7c9e35{fill:#979797}:host .se_0c5dd1&gt;.ch_f74b76{padding-left:1rem;border-left:1px dotted #585855}:host .se_0c5dd1&gt;.ch_f74b76[data-type=array]&gt;.li_030c5f&gt;.ke_31c9d8,:host .se_0c5dd1&gt;.ch_f74b76[data-type=array]&gt;.li_030c5f&gt;.se_e0d101{color:#747272;user-select:none}:host .se_0c5dd1[aria-expanded=true]&gt;.li_030c5f&gt;.to_2745fd .pl_dc825e{display:none}:host .se_0c5dd1[aria-expanded=true]&gt;.li_030c5f&gt;.to_2745fd .mi_7c9e35{display:inline-block}:host .se_0c5dd1[aria-expanded=true]&gt;.li_030c5f&gt;.va_251777{display:none}:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.to_2745fd .pl_dc825e{display:inline-block}:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.to_2745fd .mi_7c9e35{display:none}:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.va_251777{display:inline-block}:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.br_00693c,:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.si_2fbe48,:host .se_0c5dd1[aria-expanded=false]&gt;.li_030c5f&gt;.to_2745fd .mi_7c9e35,:host .se_0c5dd1[aria-expanded=false]&gt;:last-child,:host .se_0c5dd1[aria-expanded=false]&gt;.ch_f74b76{display:none}:host .se_0c5dd1:hover&gt;.ch_f74b76{border-color:#858580}:host .se_0c5dd1:hover&gt;.li_030c5f&gt;.br_00693c{color:#fffff7}
+    :host{--main-bg-color: #3a3c44;--main-color: #eee;--string-text-color: #f29766;--number-text-color: #77eda4;--boolean-text-color: #ed77e5;--null-text-color: #fff;position:relative;display:block;padding:.5rem 1rem;background-color:var(--main-bg-color);color:var(--main-color);font:400 14px/1.2rem monospace;text-rendering:optimizelegibility}:host .se_c4f6de .li_e8499a{display:block;white-space:nowrap;word-wrap:break-word}:host .se_c4f6de .li_e8499a .to_a744e4{display:inline-block;margin-top:-1px;margin-right:.2rem;margin-left:-0.47rem;width:1rem;height:1rem;color:#787878;vertical-align:middle}:host .se_c4f6de .li_e8499a .to_a744e4 .pl_9ef1da,:host .se_c4f6de .li_e8499a .to_a744e4 .mi_4a8d0b{fill:#787878}:host .se_c4f6de .li_e8499a .br_6fc46c{color:#898989}:host .se_c4f6de .li_e8499a .ke_df9ddf{color:#cfd0d0}:host .se_c4f6de .li_e8499a .se_830216{margin:0 6px 0 2px;color:#898989}:host .se_c4f6de .li_e8499a .si_94a13e{margin-left:8px;color:#747272;font-size:.8rem;font-style:italic;user-select:none;vertical-align:middle}:host .se_c4f6de .li_e8499a .va_2c711f[data-type=string]{color:var(--string-text-color)}:host .se_c4f6de .li_e8499a .va_2c711f[data-type=number]{color:var(--number-text-color)}:host .se_c4f6de .li_e8499a .va_2c711f[data-type=boolean]{color:var(--boolean-text-color)}:host .se_c4f6de .li_e8499a .va_2c711f[data-type=null],:host .se_c4f6de .li_e8499a .va_2c711f[data-type=undefined]{color:var(--null-text-color)}:host .se_c4f6de .li_e8499a .va_2c711f[data-type=array],:host .se_c4f6de .li_e8499a .va_2c711f[data-type=object]{overflow:hidden;width:90%;color:#747272;font-size:.8rem;font-style:italic;vertical-align:middle}:host .se_c4f6de&gt;.li_e8499a{cursor:pointer}:host .se_c4f6de&gt;.li_e8499a:hover&gt;.ke_df9ddf{color:#e7e7e7}:host .se_c4f6de&gt;.li_e8499a:hover&gt;.to_a744e4 .pl_9ef1da,:host .se_c4f6de&gt;.li_e8499a:hover&gt;.to_a744e4 .mi_4a8d0b{fill:#979797}:host .se_c4f6de&gt;.ch_fd9797{padding-left:1rem;border-left:1px dotted #585855}:host .se_c4f6de&gt;.ch_fd9797[data-type=array]&gt;.li_e8499a&gt;.ke_df9ddf,:host .se_c4f6de&gt;.ch_fd9797[data-type=array]&gt;.li_e8499a&gt;.se_830216{color:#747272;user-select:none}:host .se_c4f6de[aria-expanded=true]&gt;.li_e8499a&gt;.to_a744e4 .pl_9ef1da{display:none}:host .se_c4f6de[aria-expanded=true]&gt;.li_e8499a&gt;.to_a744e4 .mi_4a8d0b{display:inline-block}:host .se_c4f6de[aria-expanded=true]&gt;.li_e8499a&gt;.va_2c711f{display:none}:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.to_a744e4 .pl_9ef1da{display:inline-block}:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.to_a744e4 .mi_4a8d0b{display:none}:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.va_2c711f{display:inline-block}:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.br_6fc46c,:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.si_94a13e,:host .se_c4f6de[aria-expanded=false]&gt;.li_e8499a&gt;.to_a744e4 .mi_4a8d0b,:host .se_c4f6de[aria-expanded=false]&gt;:last-child,:host .se_c4f6de[aria-expanded=false]&gt;.ch_fd9797{display:none}:host .se_c4f6de:hover&gt;.ch_fd9797{border-color:#858580}:host .se_c4f6de:hover&gt;.li_e8499a&gt;.br_6fc46c{color:#fffff7}
   </style>,
   <section
-    class="se_0c5dd1"
+    class="se_c4f6de"
   >
     <div
-      class="li_030c5f"
+      class="li_e8499a"
     >
       <svg
-        class="to_2745fd"
+        class="to_a744e4"
         height="20"
         viewBox="0 0 1792 1792"
         width="20"
       >
         <path
-          class="mi_7c9e35"
+          class="mi_4a8d0b"
           d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
         />
         <path
-          class="pl_dc825e"
+          class="pl_9ef1da"
           d="M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
         />
       </svg>
       <span
-        class="va_251777"
+        class="va_2c711f"
         data-type="object"
       >
         Object {"string":"this is a test ...","integer":42,"array":[1,2,3,"NaN"],"float":3.141,"undefined":"undefined","object":{"first-child":true,"second-child":false,"last-child":"null"},"string_number":"1234"}
       </span>
       <span
-        class="br_00693c"
+        class="br_6fc46c"
       >
         {
       </span>
     </div>
     <section
-      class="ch_f74b76"
+      class="ch_fd9797"
       data-type="object"
     >
       <div
-        class="li_030c5f"
+        class="li_e8499a"
       >
         <span
-          class="ke_31c9d8"
+          class="ke_df9ddf"
         >
           "string"
         </span>
         <span
-          class="se_e0d101"
+          class="se_830216"
         >
           :
         </span>
         <span
-          class="va_251777"
+          class="va_2c711f"
           data-type="string"
         >
           "this is a test ..."
@@ -971,20 +971,20 @@ NodeList [
         ,
       </div>
       <div
-        class="li_030c5f"
+        class="li_e8499a"
       >
         <span
-          class="ke_31c9d8"
+          class="ke_df9ddf"
         >
           "integer"
         </span>
         <span
-          class="se_e0d101"
+          class="se_830216"
         >
           :
         </span>
         <span
-          class="va_251777"
+          class="va_2c711f"
           data-type="number"
         >
           42
@@ -992,67 +992,67 @@ NodeList [
         ,
       </div>
       <section
-        class="se_0c5dd1"
+        class="se_c4f6de"
       >
         <div
-          class="li_030c5f"
+          class="li_e8499a"
         >
           <svg
-            class="to_2745fd"
+            class="to_a744e4"
             height="20"
             viewBox="0 0 1792 1792"
             width="20"
           >
             <path
-              class="mi_7c9e35"
+              class="mi_4a8d0b"
               d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
             />
             <path
-              class="pl_dc825e"
+              class="pl_9ef1da"
               d="M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
             />
           </svg>
           <span
-            class="ke_31c9d8"
+            class="ke_df9ddf"
           >
             "array"
           </span>
           <span
-            class="se_e0d101"
+            class="se_830216"
           >
             :
           </span>
           <span
-            class="va_251777"
+            class="va_2c711f"
             data-type="array"
           >
             Array[4] [1,2,3,"NaN"]
           </span>
           <span
-            class="br_00693c"
+            class="br_6fc46c"
           >
             [
           </span>
         </div>
         <section
-          class="ch_f74b76"
+          class="ch_fd9797"
           data-type="array"
         >
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "0"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="number"
             >
               1
@@ -1060,20 +1060,20 @@ NodeList [
             ,
           </div>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "1"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="number"
             >
               2
@@ -1081,20 +1081,20 @@ NodeList [
             ,
           </div>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "2"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="number"
             >
               3
@@ -1102,20 +1102,20 @@ NodeList [
             ,
           </div>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "3"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="string"
             >
               "NaN"
@@ -1123,10 +1123,10 @@ NodeList [
           </div>
         </section>
         <div
-          class="li_030c5f"
+          class="li_e8499a"
         >
           <span
-            class="br_00693c"
+            class="br_6fc46c"
           >
             ]
           </span>
@@ -1134,20 +1134,20 @@ NodeList [
         </div>
       </section>
       <div
-        class="li_030c5f"
+        class="li_e8499a"
       >
         <span
-          class="ke_31c9d8"
+          class="ke_df9ddf"
         >
           "float"
         </span>
         <span
-          class="se_e0d101"
+          class="se_830216"
         >
           :
         </span>
         <span
-          class="va_251777"
+          class="va_2c711f"
           data-type="number"
         >
           3.141
@@ -1155,20 +1155,20 @@ NodeList [
         ,
       </div>
       <div
-        class="li_030c5f"
+        class="li_e8499a"
       >
         <span
-          class="ke_31c9d8"
+          class="ke_df9ddf"
         >
           "undefined"
         </span>
         <span
-          class="se_e0d101"
+          class="se_830216"
         >
           :
         </span>
         <span
-          class="va_251777"
+          class="va_2c711f"
           data-type="string"
         >
           "undefined"
@@ -1176,67 +1176,67 @@ NodeList [
         ,
       </div>
       <section
-        class="se_0c5dd1"
+        class="se_c4f6de"
       >
         <div
-          class="li_030c5f"
+          class="li_e8499a"
         >
           <svg
-            class="to_2745fd"
+            class="to_a744e4"
             height="20"
             viewBox="0 0 1792 1792"
             width="20"
           >
             <path
-              class="mi_7c9e35"
+              class="mi_4a8d0b"
               d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
             />
             <path
-              class="pl_dc825e"
+              class="pl_9ef1da"
               d="M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
             />
           </svg>
           <span
-            class="ke_31c9d8"
+            class="ke_df9ddf"
           >
             "object"
           </span>
           <span
-            class="se_e0d101"
+            class="se_830216"
           >
             :
           </span>
           <span
-            class="va_251777"
+            class="va_2c711f"
             data-type="object"
           >
             Object {"first-child":true,"second-child":false,"last-child":"null"}
           </span>
           <span
-            class="br_00693c"
+            class="br_6fc46c"
           >
             {
           </span>
         </div>
         <section
-          class="ch_f74b76"
+          class="ch_fd9797"
           data-type="object"
         >
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "first-child"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="boolean"
             >
               true
@@ -1244,20 +1244,20 @@ NodeList [
             ,
           </div>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "second-child"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="boolean"
             >
               false
@@ -1265,20 +1265,20 @@ NodeList [
             ,
           </div>
           <div
-            class="li_030c5f"
+            class="li_e8499a"
           >
             <span
-              class="ke_31c9d8"
+              class="ke_df9ddf"
             >
               "last-child"
             </span>
             <span
-              class="se_e0d101"
+              class="se_830216"
             >
               :
             </span>
             <span
-              class="va_251777"
+              class="va_2c711f"
               data-type="string"
             >
               "null"
@@ -1286,10 +1286,10 @@ NodeList [
           </div>
         </section>
         <div
-          class="li_030c5f"
+          class="li_e8499a"
         >
           <span
-            class="br_00693c"
+            class="br_6fc46c"
           >
             }
           </span>
@@ -1297,20 +1297,20 @@ NodeList [
         </div>
       </section>
       <div
-        class="li_030c5f"
+        class="li_e8499a"
       >
         <span
-          class="ke_31c9d8"
+          class="ke_df9ddf"
         >
           "string_number"
         </span>
         <span
-          class="se_e0d101"
+          class="se_830216"
         >
           :
         </span>
         <span
-          class="va_251777"
+          class="va_2c711f"
           data-type="string"
         >
           "1234"
@@ -1318,10 +1318,10 @@ NodeList [
       </div>
     </section>
     <div
-      class="li_030c5f"
+      class="li_e8499a"
     >
       <span
-        class="br_00693c"
+        class="br_6fc46c"
       >
         }
       </span>
