@@ -1,4 +1,5 @@
 import {screen} from '@testing-library/dom';
+// eslint-disable-next-line import/no-unresolved
 import {JSONViewer} from '../';
 
 function appendElement(TEST_ID: string, content: string) {
